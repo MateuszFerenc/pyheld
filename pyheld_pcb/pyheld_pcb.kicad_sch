@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ba6f8fdb-f4fe-4618-8996-8010efc6ab22")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 160.02 40.64)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1cc4485c-21de-4da4-8687-5322240d5e0f")
+		(property "Sheetname" "Audio Section"
+			(at 160.02 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio_section.kicad_sch"
+			(at 160.02 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pyheld_pcb"
+				(path "/ba6f8fdb-f4fe-4618-8996-8010efc6ab22"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 83.82)
+		(size 38.1 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3af38107-ae62-442b-80c2-920f7d10f831")
+		(property "Sheetname" "Control Unit Section"
+			(at 160.02 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control_unit_section.kicad_sch"
+			(at 160.02 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pyheld_pcb"
+				(path "/ba6f8fdb-f4fe-4618-8996-8010efc6ab22"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 40.64)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e77bdff-0a46-47f6-a74e-809a346ab3b1")
+		(property "Sheetname" "Power section"
+			(at 49.53 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_section.kicad_sch"
+			(at 49.53 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pyheld_pcb"
+				(path "/ba6f8fdb-f4fe-4618-8996-8010efc6ab22"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 82.55)
+		(size 38.1 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c186da3b-6837-408c-8635-87d94221f602")
+		(property "Sheetname" "Human Interface Section"
+			(at 49.53 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "human_interface_section.kicad_sch"
+			(at 49.53 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pyheld_pcb"
+				(path "/ba6f8fdb-f4fe-4618-8996-8010efc6ab22"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
