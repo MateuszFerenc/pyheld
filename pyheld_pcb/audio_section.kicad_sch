@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "2360ff63-f0e0-48bf-b75f-4fcd6d5f68be")
+	(uuid "7b46d4f0-627f-4d65-b567-d354a7e51abc")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Audio:AudioJack3_SwitchTR"

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "7761c616-717a-44af-a442-df43ca4bd50a")
+	(uuid "cb7db6d4-6bdb-4a56-9e49-6b1ef4226df4")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R_Photo"
