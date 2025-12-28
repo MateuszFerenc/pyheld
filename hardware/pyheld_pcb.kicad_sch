@@ -123,56 +123,6 @@
 				(justify left top)
 			)
 		)
-		(pin "+3V3" output
-			(at 49.53 45.72 180)
-			(uuid "9460dc8f-ce9f-4a4c-86b1-dcc945612789")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+5V" output
-			(at 49.53 48.26 180)
-			(uuid "34f6f593-4170-48fb-91ee-2e81ed00b54d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "5V enable" input
-			(at 49.53 50.8 180)
-			(uuid "23b44947-fb25-4ed9-ae3b-3e79293b3fcf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GND" output
-			(at 49.53 53.34 180)
-			(uuid "acba4e98-0928-4d2f-83cb-b634b406e145")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "U_BATT" output
-			(at 49.53 55.88 180)
-			(uuid "52dce596-97f2-4ca1-809e-b455dbb9d7ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "pyheld_pcb"
 				(path "/ba6f8fdb-f4fe-4618-8996-8010efc6ab22"
