@@ -823,6 +823,221 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "additional_symbols:LM4875"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM4875"
+				(at 3.0551 0.0763 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at -3.302 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm4875.pdf"
+				(at -3.302 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "750 mW Audio Power Amplifier with DC Volume Control and Headphone Switch"
+				(at -3.302 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mono audio amplifier sound"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM4875_1_1"
+				(rectangle
+					(start -12.7 -2.54)
+					(end 7.62 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 -6.35 0)
+					(length 2.54)
+					(name "-Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "DC_vol/~{SD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -13.97 0)
+					(length 2.54)
+					(name "Bypass"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 0 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 -20.32 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "Vo1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "Vo2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -13.97 180)
+					(length 2.54)
+					(name "HP_Sense"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "additional_symbols:WAU8812"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1398,225 +1613,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "newsymbols:LM4875"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM4875"
-				(at 3.0551 0.0763 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm4875.pdf"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "750 mW Audio Power Amplifier with DC Volume Control and Headphone Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mono audio amplifier sound"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM4875_1_1"
-				(rectangle
-					(start -12.7 -2.54)
-					(end 7.62 -17.78)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -15.24 -6.35 0)
-					(length 2.54)
-					(name "-Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -10.16 0)
-					(length 2.54)
-					(name "DC_vol/~{SD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -13.97 0)
-					(length 2.54)
-					(name "Bypass"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -3.81 0 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -3.81 -20.32 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -6.35 180)
-					(length 2.54)
-					(name "Vo1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "Vo2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -13.97 180)
-					(length 2.54)
-					(name "HP_Sense"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1716,8 +1720,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1737,8 +1740,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1814,8 +1821,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3725,32 +3731,35 @@
 		)
 	)
 	(symbol
-		(lib_id "newsymbols:LM4875")
+		(lib_id "additional_symbols:LM4875")
 		(at 124.46 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c274c93b-d118-4b5b-bdba-b03dc0dcfe9c")
-		(property "Reference" "U8"
-			(at 128.27 64.77 0)
+		(fields_autoplaced yes)
+		(uuid "a8bd911c-c12a-4ac2-aafa-1b4acf7a1bc0")
+		(property "Reference" "U10"
+			(at 122.7933 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LM4875"
-			(at 130.81 67.31 0)
+			(at 122.7933 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 124.46 64.77 0)
+			(at 121.158 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +3768,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm4875.pdf"
-			(at 124.46 62.23 0)
+			(at 121.158 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,42 +3776,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 124.46 67.31 0)
+		(property "Description" "750 mW Audio Power Amplifier with DC Volume Control and Headphone Switch"
+			(at 121.158 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "96f2324c-46bb-488e-aa95-e2968c44f88c")
-		)
-		(pin "3"
-			(uuid "96f2324c-46bb-488e-aa95-e2968c44f88d")
-		)
-		(pin "1"
-			(uuid "ae6368ad-b7b7-4af6-b361-be2555949692")
-		)
-		(pin "2"
-			(uuid "1a87ba0b-2836-4997-9c6e-6aa9f79a2d9f")
-		)
 		(pin "5"
-			(uuid "97a82f66-54b1-4163-bca9-5465bea8d8ae")
-		)
-		(pin "6"
-			(uuid "9007f80c-12d0-4d55-beac-d912b24d1bde")
-		)
-		(pin "7"
-			(uuid "2371680c-7598-47c2-8ffe-24e775b9e958")
+			(uuid "93394cb0-adb5-41e7-aed8-7dee7b751ab6")
 		)
 		(pin "8"
-			(uuid "7b97af10-a071-4951-b4fe-aa39fd981ceb")
+			(uuid "54ae1eea-1308-4c90-8264-a23bc4fb1c1b")
+		)
+		(pin "3"
+			(uuid "8b9ee263-d261-498d-9cc7-d9e8b9071d1b")
+		)
+		(pin "6"
+			(uuid "a46640f1-39c3-49ad-8209-c120461f0205")
+		)
+		(pin "7"
+			(uuid "df9b56ef-3949-48ec-a8b8-3867a8a7deae")
+		)
+		(pin "2"
+			(uuid "559db043-cb63-4995-ab21-9a2fdf3276b6")
+		)
+		(pin "4"
+			(uuid "424f7816-74bc-40e0-b1cb-c6aa5d16ae37")
+		)
+		(pin "1"
+			(uuid "4cee3d74-10db-4958-910a-ae80541a60b1")
 		)
 		(instances
-			(project "pyheld_pcb"
+			(project ""
 				(path "/ba6f8fdb-f4fe-4618-8996-8010efc6ab22/1cc4485c-21de-4da4-8687-5322240d5e0f"
-					(reference "U8")
+					(reference "U10")
 					(unit 1)
 				)
 			)
