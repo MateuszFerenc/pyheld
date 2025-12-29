@@ -2511,379 +2511,192 @@
 		)
 		(uuid "ff9cd709-f24e-4375-bcf5-5b5eee04d50e")
 	)
-	(global_label "BUTTON ROW3"
-		(shape output)
-		(at 194.31 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0728f698-63f9-4c8b-95ec-73546a7b84d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8991 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUTTON ROW1"
-		(shape output)
-		(at 194.31 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25b3cbf6-a41d-4016-a7ab-4f64d76ce37f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8991 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCK"
-		(shape input)
-		(at 85.09 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a83d0eb-6526-43cb-a805-363f9a286543")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.3553 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BACKLIGHT"
+	(hierarchical_label "BACKLIGHT"
 		(shape input)
 		(at 35.56 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "39758591-3071-4921-bc34-f553d481d5ab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.4752 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "01402818-8e2b-443f-aadc-8312b712ea65")
 	)
-	(global_label "SDCARD_CS"
+	(hierarchical_label "LCD_DC"
 		(shape input)
-		(at 185.42 128.27 180)
-		(fields_autoplaced yes)
+		(at 85.09 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "3bcae440-192b-4120-b99a-eeed0afbd209")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.6096 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "042ed22b-3000-4cae-925e-023be8457ee6")
 	)
-	(global_label "MOSI"
-		(shape input)
-		(at 185.42 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c7ad9a7-bf2d-4787-aebb-27693e01cabe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8386 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUTTON COL0"
-		(shape input)
-		(at 203.2 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "497e5f42-435d-4b2f-b0e3-64a89c1c2b3f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.2124 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD CS"
-		(shape input)
-		(at 85.09 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5908a567-054b-4e57-bc09-8110523af88f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.0896 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LIGHT LEVEL"
+	(hierarchical_label "LIGHT_LEVEL"
 		(shape output)
 		(at 100.33 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5af895e2-3f7c-475f-8bfb-0b5c416ca267")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9266 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "09983d1d-77c0-44dc-96ca-86b0fb92bd60")
 	)
-	(global_label "SCK"
-		(shape input)
-		(at 185.42 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "65a34bcb-9ee6-46fc-9622-033352f5fb5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.6853 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUTTON ROW2"
+	(hierarchical_label "BUTTON_ROW3"
 		(shape output)
-		(at 194.31 62.23 180)
-		(fields_autoplaced yes)
+		(at 194.31 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8414560e-8ae0-4918-9757-38db49db777f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8991 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "12b2f9cf-85f4-40f8-b4c8-89146028ebe8")
 	)
-	(global_label "BUTTON COL1"
+	(hierarchical_label "MOSI"
 		(shape input)
-		(at 229.87 78.74 180)
-		(fields_autoplaced yes)
+		(at 185.42 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "895abe98-f811-45d7-83e9-d1a8cc8afb55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.8824 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "1badd209-cfe3-4600-963c-6e1eaafad69c")
 	)
-	(global_label "BUTTON ROW0"
-		(shape output)
-		(at 194.31 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cef55448-9fc1-4661-bf34-53d8a0057b6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8991 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOSI"
+	(hierarchical_label "SDCARD_CS"
 		(shape input)
-		(at 85.09 138.43 180)
-		(fields_autoplaced yes)
+		(at 185.42 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d0b47625-a6bc-476c-9948-f5b1b5c7f55f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.5086 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "255680e0-fc61-4c40-a203-2f83024d8d1a")
 	)
-	(global_label "MISO"
-		(shape output)
-		(at 185.42 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "def4ace8-8dbe-4100-be06-a945d700df5a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8386 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD DC"
-		(shape input)
-		(at 85.09 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f8afc961-e316-43a7-98c2-58104469f778")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.0291 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LCD RST"
+	(hierarchical_label "LCD_RST"
 		(shape input)
 		(at 85.09 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "fb0b351f-e2e5-4ce6-9228-587235f6ecd2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.122 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "34badc9c-0057-40b6-aa02-067df6d3fd00")
+	)
+	(hierarchical_label "LCD_CS"
+		(shape input)
+		(at 85.09 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "897e44cf-4ab9-4068-8655-9d6479d9f7c3")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 85.09 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8d5566d-f324-40ed-a344-91458ce1cc9c")
+	)
+	(hierarchical_label "BUTTON_COL1"
+		(shape input)
+		(at 229.87 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b03f948f-071a-464b-9b40-fc515a5efbea")
+	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 85.09 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b58909dc-2faa-41ff-afb9-8e9d68b1fb51")
+	)
+	(hierarchical_label "BUTTON_COL0"
+		(shape input)
+		(at 203.2 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7794af5-1b58-4954-934a-eb6fcf523836")
+	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 185.42 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea4d4c19-fb57-491b-b45a-67eebd5119d9")
+	)
+	(hierarchical_label "BUTTON_ROW0"
+		(shape output)
+		(at 194.31 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eac6d15d-18f0-4e09-a426-06a254a28a03")
+	)
+	(hierarchical_label "BUTTON_ROW2"
+		(shape output)
+		(at 194.31 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eae25eaf-d25a-4f99-8aff-ceb5662895f7")
+	)
+	(hierarchical_label "MISO"
+		(shape output)
+		(at 185.42 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed3e84a0-63d0-4ce6-bb68-990852fdc2af")
+	)
+	(hierarchical_label "BUTTON_ROW1"
+		(shape output)
+		(at 194.31 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff288bca-42eb-4344-b1d2-c203538f0af2")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
